@@ -1,5 +1,6 @@
 
 # Deep Learning Course - Spring 2025  
+![banner](statics/Banner.jpg "Title")
 **University of Tabriz**  
 **Instructor:** Dr. Behzad Pourmahmoud (`b.pourmahmood@tabrizu.ac.ir`)  
 **Teaching Assistant (TA):** Nikan Zamani (`zamaninikan@gmail.com`)  
