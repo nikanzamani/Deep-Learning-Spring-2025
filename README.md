@@ -1,11 +1,12 @@
 
 # Deep Learning Course - Spring 2025  
-![banner](statics/Banner.jpg "Title")
+![banner](statics/Banner.jpg)
 **University of Tabriz**  
 **Instructor:** Dr. Behzad Pourmahmoud (`b.pourmahmood@tabrizu.ac.ir`)  
 **Teaching Assistant (TA):** Nikan Zamani (`zamaninikan@gmail.com`)  
 
-
+## **Persian version**
+you can read the persian version [here](https://github.com/nikanzamani/Deep-Learning-Spring-2025/blob/main/README.fa.md) but be warned, I'm going to prioritize keeping the english version up-to-date so the persian version may be a little outdated. you are supposed to have a working knowledge of English. If you find any problem with any version of the documentation please contact me, or even better make a pull request. 
 
 ## **Prerequisites**:  
 Basic Python, Linear Algebra. 
