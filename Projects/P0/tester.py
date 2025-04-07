@@ -6,7 +6,6 @@ def tester(file_path="main",DS_path="DataSet"):
     mod=importlib.import_module(file_path)
     chdir(path.dirname(__file__))
     TC_files=[]
-    # all_files= [path.join(DS_path,x)for x in listdir(DS_path+"/publ")+listdir(DS_path)]
     for tc in [path.join(dirs[0],file) for dirs in walk(DS_path) for file in dirs[2]]:
         print(tc)
         if tc[-2:]=="in" and path.isfile(tc) and path.isfile(tc[:-2]+"out"):
