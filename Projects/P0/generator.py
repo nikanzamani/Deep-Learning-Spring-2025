@@ -32,7 +32,6 @@ def generate_one(file_path):
 def generate_all(public=3,secret=7):
     for i in range(public):
         file_path=path.join(data_set_path,"public",f"TC{i+1:02d}")
-        print(file_path)
         generate_one(file_path)
     for i in range(secret):
         file_path=path.join(data_set_path,"secret",f"TC{i+1:02d}")
