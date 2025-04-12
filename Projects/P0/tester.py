@@ -2,12 +2,11 @@ import importlib
 from os import path,walk,chdir
 eps=1e-3
 
-def tester(file_path="main",DS_path="DataSet"):
-    mod=importlib.import_module(file_path)
+def tester(file_path="answer",DS_path="DataSet"):
     chdir(path.dirname(__file__))
+    mod=importlib.import_module(file_path)
     TC_files=[]
     for tc in [path.join(dirs[0],file) for dirs in walk(DS_path) for file in dirs[2]]:
-        print(tc)
         if tc[-2:]=="in" and path.isfile(tc) and path.isfile(tc[:-2]+"out"):
             TC_files.append(".".join(tc.split(".")[:-1]))
     
