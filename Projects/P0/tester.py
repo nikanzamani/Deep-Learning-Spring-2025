@@ -2,7 +2,7 @@ import importlib
 from os import path,walk,chdir
 eps=1e-3
 
-def tester(file_path="answer",DS_path="DataSet"):
+def tester(file_path="main",DS_path="DataSet"):
     chdir(path.dirname(__file__))
     mod=importlib.import_module(file_path)
     TC_files=[]
